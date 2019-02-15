@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.1.2.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+    
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.wudimanong.starter</groupId>
+    <artifactId>starter</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0.0-SNAPSHOT</version>
+    <description>Wudimanong Spring Boot Starters</description>
+
+    <properties>
+        <maven.source.skip>false</maven.source.skip>
+    </properties>
+
+    <scm>
+        <connection>scm:git:https://github.com/qiaojiang2/springboot-starter</connection>
+        <developerConnection>scm:git:git@git.github.com/qiaojiang2/springboot-starter.git</developerConnection>
+        <url>https://github.com/qiaojiang2/springboot-starter</url>
+        <tag>1.0.0</tag>
+    </scm>
+
+    <repositories>
+        <repository>
+            <id>alimaven</id>
+            <name>aliyun maven</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+        </repository>
+    </repositories>
+
+    <modules>
+        <module>rocketmq-starter</module>
+    </modules>
+
+</project>
